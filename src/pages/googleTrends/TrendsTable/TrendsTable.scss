@@ -1,0 +1,73 @@
+/* Container styling */
+.table-container {
+    // width: 100%;
+    max-width: 97%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Table styling */
+  .trends-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trends-table th, .trends-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .trends-table th {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .trends-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Trend breakdown styling */
+  .trend-breakdown {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .breakdown-item {
+    background-color: #e7f3ff;
+    color: #42ccb3;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .more {
+    color: #888;
+    font-size: 14px;
+    padding-left: 6px;
+  }
+  
+  /* Button styling */
+  .action-button, .loading-button {
+    padding: 8px 16px;
+    background-color: #42ccb3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .action-button:hover {
+    background-color: #42ccb3;
+  }
+  
+  .loading-button {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  

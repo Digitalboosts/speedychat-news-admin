@@ -1,0 +1,52 @@
+/* Styles for the entire container */
+.trends-export-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 800;
+    width: 95%;
+    margin-left: 20px;
+  }
+  
+  /* General dropdown styles */
+  .trends-dropdown {
+    padding: 6px 18px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .trends-dropdown:hover {
+    border-color: #007bff;
+  }
+  
+  /* Export button styles */
+  .trends-export-btn {
+    background-color: #cce6ff; /* Light blue background */
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .trends-export-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  .select-tag{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .trends-export-box2{
+    // border: 1px solid green;
+  }

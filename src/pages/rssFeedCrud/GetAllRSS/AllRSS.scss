@@ -1,0 +1,58 @@
+.list {
+    display: flex;
+    width: 100%;
+    .listContainer {
+      flex: 6;
+    }
+  }
+
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+//   .listContainer {
+//     padding: 20px;
+//   }
+  
+  .rssTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .rssTable th, .rssTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .rssTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .rssTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .rssTable tr:hover {
+    background-color: #ddd;
+  }
+  
+  .rssTable button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .rssTable button:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .text_category {
+    padding: 20px;
+  }

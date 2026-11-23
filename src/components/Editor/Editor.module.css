@@ -1,0 +1,28 @@
+/* ArticleEditor.css */
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: calc(100vh - 40px);
+  margin: 2%;
+  position: relative;
+}
+.title {
+  /* border: 1px solid red; */
+  /* border: none; */
+  width: 100%;
+  font-size: 25px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+.editor {
+  height: 80%;
+}
+.count {
+  width: fit-content;
+  position: absolute;
+  right: 4px;
+  top: 65px;
+  font-size: 13px;
+}
